@@ -12,9 +12,8 @@ This pregnancy weight gain calculator gives a recommended weight increase plan e
 3. Activate the [Pregnancy Weight Gain Calculator](https://www.calculator.io/pregnancy-weight-gain-calculator/ "Pregnancy Weight Gain Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_pregnancy_weight_gain_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Pregnancy Weight Gain Calculator to the sidebar through the `Appearance -> Widgets -> Pregnancy Weight Gain Calculator` menu in WordPress.
-* Add the following code: `<?php display_ci_pregnancy_weight_gain_calculator(); ?>` to your template where you would like the Pregnancy Weight Gain Calculator to appear.
+* Add the shortcode `[ci_pregnancy_weight_gain_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_ci_pregnancy_weight_gain_calculator(); ?>` to your template where you would like the Pregnancy Weight Gain Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
