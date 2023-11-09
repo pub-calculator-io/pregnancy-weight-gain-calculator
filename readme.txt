@@ -13,6 +13,8 @@ This pregnancy weight gain calculator gives a recommended weight increase plan e
 
 This pregnancy weight gain calculator gives a recommended weight increase plan every week based on the user’s body weight before pregnancy and the parameters provided by the IOM (the Institute of Medicine).
 
+[Pregnancy Weight Gain Calculator Homepage](https://www.calculator.io/pregnancy-weight-gain-calculator/ "Pregnancy Weight Gain Calculator Homepage")
+
 __Shortcode__
 
 Use the Pregnancy Weight Gain Calculator shortcode:
