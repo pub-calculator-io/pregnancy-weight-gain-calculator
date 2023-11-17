@@ -1,6 +1,6 @@
 === Pregnancy Weight Gain Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: pregnancy weight gain calculator, weekly pregnancy weight tracking, pre-pregnancy body weight, pregnancy stage weight calculator, healthy pregnancy weight increase, pregnancy weight monitoring, institute of medicine weight advice, pregnancy weight gain plan
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
