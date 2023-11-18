@@ -1,4 +1,4 @@
-=== Pregnancy Weight Gain Calculator by Calculator.iO ===
+=== Pregnancy Weight Gain Calculator ===
 Contributors: calculatorio
 Tags: pregnancy weight gain calculator, weekly pregnancy weight tracking, pre-pregnancy body weight, pregnancy stage weight calculator, healthy pregnancy weight increase, pregnancy weight monitoring, institute of medicine weight advice, pregnancy weight gain plan
 Requires at least: 5.0
