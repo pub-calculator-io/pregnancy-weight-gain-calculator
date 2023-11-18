@@ -1,4 +1,4 @@
-# Pregnancy Weight Gain Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Pregnancy Weight Gain Calculator Widget for WordPress
 
 This pregnancy weight gain calculator gives a recommended weight increase plan every week based on the user’s body weight before pregnancy and the parameters provided by the IOM (the Institute of Medicine).
 
