@@ -7,7 +7,7 @@ This pregnancy weight gain calculator gives a recommended weight increase plan e
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/pregnancy-weight-gain-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /pregnancy-weight-gain-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Pregnancy Weight Gain Calculator](https://www.calculator.io/pregnancy-weight-gain-calculator/ "Pregnancy Weight Gain Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
