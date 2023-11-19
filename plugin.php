@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Pregnancy Weight Gain Calculator by www.calculator.io
+Plugin Name: CI Pregnancy weight gain calculator
 Plugin URI: https://www.calculator.io/pregnancy-weight-gain-calculator/
 Description: This pregnancy weight gain calculator gives a recommended weight increase plan every week based on the user’s body weight before pregnancy and the parameters provided by the IOM (the Institute of Medicine).
 Version: 1.0.0
