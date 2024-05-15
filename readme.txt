@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Pregnancy Weigh
 == Screenshots ==
 
 1. The Pregnancy Weight Gain Calculator Input Form.
-2. The Pregnancy Weight Gain Calculator Calculation Results.
 
 == Installation ==
 

@@ -28,7 +28,7 @@
             <div class="calculator-setting" id="calculator_form">
                 <div class="calculator-content col">
                 	<div class="input-wrapper row">
-                		<label class="input col ">
+                		<label class="input col bmi-calculator,ideal-weight-calculator,pregnancy-calculator">
                 			<p class="input__title">Your Current Pregnancy Stage</p>
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row " tabindex="0">
@@ -199,14 +199,14 @@
                 		</label>
                 	</div>
                 	<label class="checkbox">
-                		<input type="checkbox" class="checkbox__input" id="pregnant_twins"   />
+                		<input type="checkbox" class="checkbox__input" id="pregnant_twins"  onchange="relatedToggle(event, 'pregnant_twins')" />
                 		<span class="checkbox__box"></span>
                 			<span class="checkbox__title">Pregnant with Twins</span>
                 	</label></div>
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row  " >
                 
                 
-                		<button class="system-switcher" onclick="toggleSystem(this)">
+                		<button class="system-switcher" onclick="toggleSystem(this)" aria-label="Switch System">
                 			<div class="system-switcher__circle"></div>
                 			<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 	<path d="M10.5 9.5H10C9.44772 9.5 9 9.05228 9 8.5V2.5M4.5 2.5H3.5C2.94772 2.5 2.5 2.94772 2.5 3.5L2.5 9.5M7.5 4.5L10.5 4.5M1.5 5.5L4.5 5.5" stroke="white" stroke-width="2" stroke-linecap="round"></path>
@@ -227,14 +227,17 @@
                 		</script>
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"></script>
+                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
+                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -249,8 +252,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<div class="result-table__wrapper">
 		<table class="result-table">
@@ -262,15 +264,15 @@
 			<tbody>
 			<tr>
 				<td>Recommended weight range</td>
-				<td class="short" id="weight-range">172.7 - 177.7 lbs</td>
+				<td class="short animate" id="weight-range">172.7 - 177.7 lbs</td>
 			</tr>
 			<tr>
 				<td>Recommended weight range when delivering</td>
-				<td class="short" id="delivery-weight-range">190.5 - 200.3 lbs</td>
+				<td class="short animate" id="delivery-weight-range">190.5 - 200.3 lbs</td>
 			</tr>
 			<tr>
 				<td class="border-bottom">Your BMI before pregnancy</td>
-				<td class="short border-bottom" id="beforeBmi">22.6 kg/m2</td>
+				<td class="short border-bottom animate" id="beforeBmi">22.6 kg/m2</td>
 			</tr>
 			</tbody>
 		</table>
@@ -278,15 +280,15 @@
 	<div class="chart-wrapper chart-wrapper--padding-horizontal">
 		<canvas id="chartC150" class="chart"></canvas>
 		<div class="chart__legend">
-			<p class="result-text result-text--small">0 week</p>
-			<p class="result-text result-text--small">5 week</p>
-			<p class="result-text result-text--small">10 week</p>
-			<p class="result-text result-text--small">15 week</p>
-			<p class="result-text result-text--small">20 week</p>
-			<p class="result-text result-text--small">25 week</p>
-			<p class="result-text result-text--small">30 week</p>
-			<p class="result-text result-text--small">35 week</p>
-			<p class="result-text result-text--small">40 week</p>
+			<p class="result-text result-text--small">Week 0</p>
+			<p class="result-text result-text--small">Week 5</p>
+			<p class="result-text result-text--small">Week 10</p>
+			<p class="result-text result-text--small">Week 15</p>
+			<p class="result-text result-text--small">Week 20</p>
+			<p class="result-text result-text--small">Week 25</p>
+			<p class="result-text result-text--small">Week 30</p>
+			<p class="result-text result-text--small">Week 35</p>
+			<p class="result-text result-text--small">Week 40</p>
 		</div>
 	</div>
 	<div class="result-table__dialog">
@@ -305,7 +307,7 @@
 					<th class=" short">Recommended Weight Gain</th>
 				</tr>
 				</thead>
-				<tbody id="result-table">
+				<tbody id="result-table" class="animate">
 				<tr>
 					<td>Week 1</td>
 					<td class="short">165.3 - 165.3 lbs</td>
@@ -511,9 +513,6 @@
 		</div>
 	</div>
 </div>
-
-<!-- <script src="./assets/js/chart.js"./assets/js/chart.js').then(e => switchTheme = e.default)
-</script> -->
 </span>
     </div>
 </div>
