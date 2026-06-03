@@ -1,6 +1,6 @@
 # Pregnancy Weight Gain Calculator Widget for WordPress
 
-This pregnancy weight gain calculator gives a recommended weight increase plan every week based on the user’s body weight before pregnancy and the parameters provided by the IOM (the Institute of Medicine).
+Track your healthy pregnancy weight gain with our free calculator. Get a personalized weekly weight plan based on your pre-pregnancy BMI and IOM guidelines.
 
 ![Pregnancy Weight Gain Calculator Input Form](/assets/images/screenshot-1.png "Pregnancy Weight Gain Calculator Input Form")
 
@@ -11,8 +11,8 @@ This pregnancy weight gain calculator gives a recommended weight increase plan e
 3. Activate the [Pregnancy Weight Gain Calculator](https://www.calculator.io/pregnancy-weight-gain-calculator/ "Pregnancy Weight Gain Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_pregnancy_weight_gain_calculator]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_pregnancy_weight_gain_calculator(); ?>` to your template where you would like the Pregnancy Weight Gain Calculator to appear.
+* Add the shortcode `[calcio_pregnancy_weight_gain_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_calcio_pregnancy_weight_gain_calculator(); ?>` to your template where you would like the Pregnancy Weight Gain Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
